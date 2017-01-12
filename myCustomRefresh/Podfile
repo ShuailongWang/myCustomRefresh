@@ -1,0 +1,22 @@
+platform :ios, ‘8.0’
+
+target 'myCustomRefresh' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for myCustomRefresh
+
+
+    pod 'MJRefresh', '~> 3.1.12'
+
+  target 'myCustomRefreshTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'myCustomRefreshUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2443BEBA1E3EFD7431DDFE10 /* libPods-myCustomRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8477538C03C50740BD97861E /* libPods-myCustomRefreshTests.a */; };
+		2A59BF230CF12729EA20263E /* libPods-myCustomRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5066E19B14BA9EED2F577F /* libPods-myCustomRefresh.a */; };
+		337DF41A57E65687E0A7F585 /* libPods-myCustomRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 895B211A8707412A176936F8 /* libPods-myCustomRefreshUITests.a */; };
+		845005741E271B2D00C57D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005731E271B2D00C57D0A /* main.m */; };
+		845005771E271B2D00C57D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005761E271B2D00C57D0A /* AppDelegate.m */; };
+		8450057A1E271B2D00C57D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005791E271B2D00C57D0A /* ViewController.m */; };
+		8450057D1E271B2D00C57D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450057B1E271B2D00C57D0A /* Main.storyboard */; };
+		8450057F1E271B2D00C57D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450057E1E271B2D00C57D0A /* Assets.xcassets */; };
+		845005821E271B2D00C57D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845005801E271B2D00C57D0A /* LaunchScreen.storyboard */; };
+		8450058D1E271B2D00C57D0A /* myCustomRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450058C1E271B2D00C57D0A /* myCustomRefreshTests.m */; };
+		845005981E271B2D00C57D0A /* myCustomRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005971E271B2D00C57D0A /* myCustomRefreshUITests.m */; };
+		845005A81E271C2F00C57D0A /* CustomRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005A71E271C2F00C57D0A /* CustomRefreshGifHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845005891E271B2D00C57D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845005671E271B2D00C57D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8450056E1E271B2D00C57D0A;
+			remoteInfo = myCustomRefresh;
+		};
+		845005941E271B2D00C57D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845005671E271B2D00C57D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8450056E1E271B2D00C57D0A;
+			remoteInfo = myCustomRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3582265B201FDCDFD66BDD02 /* Pods-myCustomRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefresh/Pods-myCustomRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		3A64E5F17526810B91CA0B3C /* Pods-myCustomRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefreshUITests/Pods-myCustomRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECB3CC74572D9FFB259841D /* Pods-myCustomRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefresh/Pods-myCustomRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		53A4BF151FE2C76D3D0CACDE /* Pods-myCustomRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefreshUITests/Pods-myCustomRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F2D860141D4797D649479EA /* Pods-myCustomRefreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefreshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefreshTests/Pods-myCustomRefreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8450056F1E271B2D00C57D0A /* myCustomRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCustomRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845005731E271B2D00C57D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845005751E271B2D00C57D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845005761E271B2D00C57D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845005781E271B2D00C57D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845005791E271B2D00C57D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8450057C1E271B2D00C57D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8450057E1E271B2D00C57D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845005811E271B2D00C57D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845005831E271B2D00C57D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845005881E271B2D00C57D0A /* myCustomRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCustomRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8450058C1E271B2D00C57D0A /* myCustomRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCustomRefreshTests.m; sourceTree = "<group>"; };
+		8450058E1E271B2D00C57D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845005931E271B2D00C57D0A /* myCustomRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCustomRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845005971E271B2D00C57D0A /* myCustomRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCustomRefreshUITests.m; sourceTree = "<group>"; };
+		845005991E271B2D00C57D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845005A61E271C2F00C57D0A /* CustomRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshGifHeader.h; sourceTree = "<group>"; };
+		845005A71E271C2F00C57D0A /* CustomRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshGifHeader.m; sourceTree = "<group>"; };
+		8477538C03C50740BD97861E /* libPods-myCustomRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myCustomRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895B211A8707412A176936F8 /* libPods-myCustomRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myCustomRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5066E19B14BA9EED2F577F /* libPods-myCustomRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myCustomRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC44F253AB8222404DDFA763 /* Pods-myCustomRefreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCustomRefreshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCustomRefreshTests/Pods-myCustomRefreshTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8450056C1E271B2D00C57D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A59BF230CF12729EA20263E /* libPods-myCustomRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845005851E271B2D00C57D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2443BEBA1E3EFD7431DDFE10 /* libPods-myCustomRefreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845005901E271B2D00C57D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337DF41A57E65687E0A7F585 /* libPods-myCustomRefreshUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845005661E271B2D00C57D0A = {
+			isa = PBXGroup;
+			children = (
+				845005711E271B2D00C57D0A /* myCustomRefresh */,
+				8450058B1E271B2D00C57D0A /* myCustomRefreshTests */,
+				845005961E271B2D00C57D0A /* myCustomRefreshUITests */,
+				845005701E271B2D00C57D0A /* Products */,
+				ED8EFFE135DF291C00C5AB77 /* Pods */,
+				EBE768079A93A9830BD9CCD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845005701E271B2D00C57D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8450056F1E271B2D00C57D0A /* myCustomRefresh.app */,
+				845005881E271B2D00C57D0A /* myCustomRefreshTests.xctest */,
+				845005931E271B2D00C57D0A /* myCustomRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845005711E271B2D00C57D0A /* myCustomRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				845005A51E271C2F00C57D0A /* Refresh */,
+				845005751E271B2D00C57D0A /* AppDelegate.h */,
+				845005761E271B2D00C57D0A /* AppDelegate.m */,
+				845005781E271B2D00C57D0A /* ViewController.h */,
+				845005791E271B2D00C57D0A /* ViewController.m */,
+				8450057B1E271B2D00C57D0A /* Main.storyboard */,
+				8450057E1E271B2D00C57D0A /* Assets.xcassets */,
+				845005801E271B2D00C57D0A /* LaunchScreen.storyboard */,
+				845005831E271B2D00C57D0A /* Info.plist */,
+				845005721E271B2D00C57D0A /* Supporting Files */,
+			);
+			path = myCustomRefresh;
+			sourceTree = "<group>";
+		};
+		845005721E271B2D00C57D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845005731E271B2D00C57D0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8450058B1E271B2D00C57D0A /* myCustomRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				8450058C1E271B2D00C57D0A /* myCustomRefreshTests.m */,
+				8450058E1E271B2D00C57D0A /* Info.plist */,
+			);
+			path = myCustomRefreshTests;
+			sourceTree = "<group>";
+		};
+		845005961E271B2D00C57D0A /* myCustomRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845005971E271B2D00C57D0A /* myCustomRefreshUITests.m */,
+				845005991E271B2D00C57D0A /* Info.plist */,
+			);
+			path = myCustomRefreshUITests;
+			sourceTree = "<group>";
+		};
+		845005A51E271C2F00C57D0A /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				845005A61E271C2F00C57D0A /* CustomRefreshGifHeader.h */,
+				845005A71E271C2F00C57D0A /* CustomRefreshGifHeader.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		EBE768079A93A9830BD9CCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5066E19B14BA9EED2F577F /* libPods-myCustomRefresh.a */,
+				8477538C03C50740BD97861E /* libPods-myCustomRefreshTests.a */,
+				895B211A8707412A176936F8 /* libPods-myCustomRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8EFFE135DF291C00C5AB77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3582265B201FDCDFD66BDD02 /* Pods-myCustomRefresh.debug.xcconfig */,
+				3ECB3CC74572D9FFB259841D /* Pods-myCustomRefresh.release.xcconfig */,
+				7F2D860141D4797D649479EA /* Pods-myCustomRefreshTests.debug.xcconfig */,
+				FC44F253AB8222404DDFA763 /* Pods-myCustomRefreshTests.release.xcconfig */,
+				3A64E5F17526810B91CA0B3C /* Pods-myCustomRefreshUITests.debug.xcconfig */,
+				53A4BF151FE2C76D3D0CACDE /* Pods-myCustomRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8450056E1E271B2D00C57D0A /* myCustomRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8450059C1E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefresh" */;
+			buildPhases = (
+				552BA330AE7EEF68216C9563 /* [CP] Check Pods Manifest.lock */,
+				8450056B1E271B2D00C57D0A /* Sources */,
+				8450056C1E271B2D00C57D0A /* Frameworks */,
+				8450056D1E271B2D00C57D0A /* Resources */,
+				E6F5A92798D9B3B20FBBBB83 /* [CP] Embed Pods Frameworks */,
+				D2A6A213C3B562B7054C36BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myCustomRefresh;
+			productName = myCustomRefresh;
+			productReference = 8450056F1E271B2D00C57D0A /* myCustomRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845005871E271B2D00C57D0A /* myCustomRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8450059F1E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefreshTests" */;
+			buildPhases = (
+				9436FAA953A82A2A88EF7376 /* [CP] Check Pods Manifest.lock */,
+				845005841E271B2D00C57D0A /* Sources */,
+				845005851E271B2D00C57D0A /* Frameworks */,
+				845005861E271B2D00C57D0A /* Resources */,
+				E2CCADEB9B69FC018B124209 /* [CP] Embed Pods Frameworks */,
+				B005D65B43F660E07BECF247 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8450058A1E271B2D00C57D0A /* PBXTargetDependency */,
+			);
+			name = myCustomRefreshTests;
+			productName = myCustomRefreshTests;
+			productReference = 845005881E271B2D00C57D0A /* myCustomRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845005921E271B2D00C57D0A /* myCustomRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845005A21E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefreshUITests" */;
+			buildPhases = (
+				1EB9EDDEB5A18C4796631A2F /* [CP] Check Pods Manifest.lock */,
+				8450058F1E271B2D00C57D0A /* Sources */,
+				845005901E271B2D00C57D0A /* Frameworks */,
+				845005911E271B2D00C57D0A /* Resources */,
+				ED396F6F475D1691DD970040 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845005951E271B2D00C57D0A /* PBXTargetDependency */,
+			);
+			name = myCustomRefreshUITests;
+			productName = myCustomRefreshUITests;
+			productReference = 845005931E271B2D00C57D0A /* myCustomRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845005671E271B2D00C57D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "北京奥泰瑞格科技有限公司";
+				TargetAttributes = {
+					8450056E1E271B2D00C57D0A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					845005871E271B2D00C57D0A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8450056E1E271B2D00C57D0A;
+					};
+					845005921E271B2D00C57D0A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8450056E1E271B2D00C57D0A;
+					};
+				};
+			};
+			buildConfigurationList = 8450056A1E271B2D00C57D0A /* Build configuration list for PBXProject "myCustomRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845005661E271B2D00C57D0A;
+			productRefGroup = 845005701E271B2D00C57D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8450056E1E271B2D00C57D0A /* myCustomRefresh */,
+				845005871E271B2D00C57D0A /* myCustomRefreshTests */,
+				845005921E271B2D00C57D0A /* myCustomRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8450056D1E271B2D00C57D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845005821E271B2D00C57D0A /* LaunchScreen.storyboard in Resources */,
+				8450057F1E271B2D00C57D0A /* Assets.xcassets in Resources */,
+				8450057D1E271B2D00C57D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845005861E271B2D00C57D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845005911E271B2D00C57D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB9EDDEB5A18C4796631A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		552BA330AE7EEF68216C9563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9436FAA953A82A2A88EF7376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B005D65B43F660E07BECF247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myCustomRefreshTests/Pods-myCustomRefreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A6A213C3B562B7054C36BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myCustomRefresh/Pods-myCustomRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CCADEB9B69FC018B124209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myCustomRefreshTests/Pods-myCustomRefreshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F5A92798D9B3B20FBBBB83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myCustomRefresh/Pods-myCustomRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED396F6F475D1691DD970040 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myCustomRefreshUITests/Pods-myCustomRefreshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8450056B1E271B2D00C57D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845005A81E271C2F00C57D0A /* CustomRefreshGifHeader.m in Sources */,
+				8450057A1E271B2D00C57D0A /* ViewController.m in Sources */,
+				845005771E271B2D00C57D0A /* AppDelegate.m in Sources */,
+				845005741E271B2D00C57D0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845005841E271B2D00C57D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450058D1E271B2D00C57D0A /* myCustomRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450058F1E271B2D00C57D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845005981E271B2D00C57D0A /* myCustomRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8450058A1E271B2D00C57D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8450056E1E271B2D00C57D0A /* myCustomRefresh */;
+			targetProxy = 845005891E271B2D00C57D0A /* PBXContainerItemProxy */;
+		};
+		845005951E271B2D00C57D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8450056E1E271B2D00C57D0A /* myCustomRefresh */;
+			targetProxy = 845005941E271B2D00C57D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8450057B1E271B2D00C57D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8450057C1E271B2D00C57D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845005801E271B2D00C57D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845005811E271B2D00C57D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8450059A1E271B2D00C57D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8450059B1E271B2D00C57D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8450059D1E271B2D00C57D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3582265B201FDCDFD66BDD02 /* Pods-myCustomRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myCustomRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8450059E1E271B2D00C57D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECB3CC74572D9FFB259841D /* Pods-myCustomRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myCustomRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		845005A01E271B2D00C57D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2D860141D4797D649479EA /* Pods-myCustomRefreshTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myCustomRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCustomRefresh.app/myCustomRefresh";
+			};
+			name = Debug;
+		};
+		845005A11E271B2D00C57D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC44F253AB8222404DDFA763 /* Pods-myCustomRefreshTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myCustomRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCustomRefresh.app/myCustomRefresh";
+			};
+			name = Release;
+		};
+		845005A31E271B2D00C57D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A64E5F17526810B91CA0B3C /* Pods-myCustomRefreshUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = myCustomRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myCustomRefresh;
+			};
+			name = Debug;
+		};
+		845005A41E271B2D00C57D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A4BF151FE2C76D3D0CACDE /* Pods-myCustomRefreshUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = myCustomRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgpsy.myCustomRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myCustomRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8450056A1E271B2D00C57D0A /* Build configuration list for PBXProject "myCustomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450059A1E271B2D00C57D0A /* Debug */,
+				8450059B1E271B2D00C57D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8450059C1E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450059D1E271B2D00C57D0A /* Debug */,
+				8450059E1E271B2D00C57D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8450059F1E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845005A01E271B2D00C57D0A /* Debug */,
+				845005A11E271B2D00C57D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845005A21E271B2D00C57D0A /* Build configuration list for PBXNativeTarget "myCustomRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845005A31E271B2D00C57D0A /* Debug */,
+				845005A41E271B2D00C57D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845005671E271B2D00C57D0A /* Project object */;
+}
